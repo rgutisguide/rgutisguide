@@ -1,0 +1,37 @@
+body {
+    background: url(Фон1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+            }
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    font-size:  30px;
+}
+p{
+    font-size: 25px;
+    display: block;
+    margin: 0% auto;
+    width: 60%;
+}
+.round{
+    border-radius: 100px;
+    border: 3px solid black;
+    box-shadow: 0 0 7px #666;
+}
+p1{
+    font-size: 25px;
+    display: block;
+    margin: 8% auto;
+    width: 60%;
+}
+img.imagcirc{
+	float: left;
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+	border-radius: 50%;
+	shape-outside: circle();
+	shape-margin: 15px;
+	}
