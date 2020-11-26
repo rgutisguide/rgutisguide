@@ -1,3 +1,9 @@
+body {
+    background: url(../IMG/f3.jpg);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+            }
 h1{
     text-transform: uppercase;
     text-align: center;
@@ -30,14 +36,16 @@ img.imagcirc{
 	shape-outside: circle();
 	shape-margin: 15px;
     }
-#header{
-        width: 240; 
-        height: 90;
-        background-image: url(../IMG/rguts.png);
-    }
-    a {
+
+a {
         color: white;
         width: 60%;
         font-size: 35px;
         margin: 3%;
     }
+	
+.logo h1{
+font: normal 300% 'century gothic', arial, sens-sefif;
+color: #F3B712;
+text-align: center;
+}	
