@@ -1,21 +1,21 @@
-body {
-    background: url(../IMG/f3.jpg);
+*{
+    font-family: 'Times New Roman', Times, serif
+}
+body{
+    font-size: 26px;
+    background-image: url(../Project3/IMG/f3.jpg);
+    font-family:'Roboto', sans-serif;
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
-            }
-h1{
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 100px;
-    font-size:  30px;
-}
-p{
-    font-size: 25px;
-    display: block;
-    margin: 0% auto;
-    width: 60%;
-}
+  }
+  table {
+    font-size: 20px;
+  }
+  span{
+    font-size: 56px;
+    position: fixed;
+  }
   .retreat {
     text-indent: 25px;
   }
@@ -24,8 +24,13 @@ p{
     margin-left: 20%; 
     margin-right: 20%;
   }
+
   
- 
+  header .logo {
+    flex:0 1 auto;
+    max-width:200px;
+  }
+  
   header nav {
     flex:1 1 auto;
   }
