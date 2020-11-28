@@ -4,13 +4,6 @@
     /* margin: 3%; */
 }
 
-body {
-    background: url(../IMG/f3.jpg);
-    color: #fff;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 h1 {
     text-transform: uppercase;
     text-align: center;

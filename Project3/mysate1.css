@@ -16,6 +16,37 @@
 	font-size: 25px;
   }
  
+  header nav {
+    flex:1 1 auto;
+  }
+  
+  nav ul {
+    display:flex;
+    justify-content:space-evenly;
+    padding:0;
+  }
+  
+  nav ul li {
+    list-style-type:none;
+  }
+  
+  nav ul li a {
+    background-color:none;
+    border:1px solid #efefef;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    padding:10px;
+    text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    transition: border .5s;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    border:1px solid rgb(184, 105, 2); 
+  }
   .center{
       text-align: center;
   }
@@ -87,9 +118,3 @@
     height: 300px;
     width: 100%;
 }
-a {
-        color: white;
-        width: 60%;
-        font-size: 25px;
-        margin: 3%;
-    }

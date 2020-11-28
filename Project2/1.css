@@ -3,6 +3,7 @@ body {
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
+    margin: 100 px 0 0 0;
             }
 h1{
     text-transform: uppercase;
@@ -35,6 +36,6 @@ img.imagcirc{
 a {
         color: white;
         width: 60%;
-        font-size: 35px;
+        font-size: 25px;
         margin: 3%;
     }
